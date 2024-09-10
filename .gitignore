@@ -1,0 +1,48 @@
+## PyCharm
+.ipynb_checkpoints/
+__pycache__/
+.idea/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/ 
+venv.bak/
+
+## Project
+evaluation_results/
+plots/
+models_training_logs/
+traffic-matrices-data/
+traffic-matrices-output/
+traffic-matrices-topology/
+backup_old_jobs/
+config/
+
+# weights/*
+
+# FACEBOOK DATASET
+fb_dataset/*
+!fb_dataset/parser.py
+*.parquet
+old
+logs/*
+launch.json
+notebooks
+*.log
+
+.vscode/
+facebook_data/
+*.out
+
+directed*
+SND*
+cudnn*
+www_sub*
+CNSM*
+
+*.pgf
+*.npy
