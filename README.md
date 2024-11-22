@@ -1,5 +1,6 @@
-# EDTMSR
-Enhanced Deep Traffic Matrix Super-Resolution Network
+# ResCue
+This is the code repository of our CNSM paper “Rescue: Inferring fine-grained traffic matrices via distributed
+deep residual networks".
 
 
 # Configuration
@@ -11,7 +12,7 @@ pip -r install requirements/requirements.txt
 Configure training settings for federated learning by editing _config/federated.yml_.
 
 # Running
-To run the EDTMSR code use the runner within the _runners_ folder:
+To run the ResCue code use the runner within the _runners_ folder:
 ```
 python runners/federated_runner.py
 ```
